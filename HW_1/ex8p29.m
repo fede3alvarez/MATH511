@@ -7,7 +7,7 @@ P = [1 2 3
      4 5 6
      7 8 9];
 
-Q = [2 -1 -1
+Q = [2 -1 1
     -3 4 -2
      5 3 -5];
 
@@ -30,5 +30,5 @@ fprintf("DP")
 P*D
 fprintf("\n")
 fprintf("DQ")
-D*Q
+Q*D
 fprintf("\n")

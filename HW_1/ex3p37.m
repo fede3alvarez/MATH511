@@ -23,11 +23,13 @@ D = [3 -2
 
 fprintf("\n")
 
-fprintf("b) Make a 4x5 matrix E from A, B, C & D\n")
+fprintf("b) Make a 4x5 matrix E\n")
+fprintf("from A, B, C & D\n")
 E = [A B
     C D]
 
 fprintf("\n")
 
-fprintf("c) Make a 4x4 matrix F from E by deleting the last column\n")
+fprintf("c) Make a 4x4 matrix F from\n")
+fprintf("E by deleting the last column\n")
 F = E(:,1:(end-1))
