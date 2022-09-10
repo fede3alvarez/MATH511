@@ -1,6 +1,6 @@
 % Federico Alvarez
 % MATH 511 - Fall 2022
-% Homework #2 - Ex 5 page 64
+% Homework #2B - Ex 5 page 64
 
 clear 
 close all
