@@ -39,8 +39,12 @@ S3 = [-1
       -3
        1];
 
-2*u+-3*v-S1;
+a =  [u v S1]
+rref(a)
 
-x = [u w];
+b = [u w S2]
+rref(b)
 
--5*v+2*w-S3
+c = [v w S3]
+rref(c)
+
